@@ -1,5 +1,7 @@
 # PythonProfilingExample
 
+There's a couple of example snippets of sorting code in `sorting.py` including everyone's favorite bogosort for extra slow (factorial complexity) sorting performance.
+
 ## cProfile
 
 You can get a sense of the runtime of Python code with the standard library module cProfile
