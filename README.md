@@ -15,3 +15,29 @@ Compare with:
 ```bash
 python3 -m cProfile fast.py 
 ```
+
+## Snakeviz
+
+Snakeviz will allow you to see the results of a profiling dump in a nice rendered output.
+
+Do the usual environment stuff then install with:
+
+```bash
+pip install snakeviz
+```
+
+First create profile output using:
+
+```bash
+python3 -m cProfile  -o fast.prof fast.py
+```
+
+```bash
+python3 -m cProfile  -o slow.prof slow.py
+```
+
+Then see the nice visualizaton in your browser using:
+
+```bash
+snakeviz slow.prof
+```
